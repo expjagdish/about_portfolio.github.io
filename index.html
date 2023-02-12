@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap is a free, open source front-end development framework for the creation of websites and web apps.">
+    <title>My Second bootstrsp project</title>
+    <link rel="icon" href="image/title-img.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start header section -->
+  <header class="home" id="home">
+    <!-- start nav section -->
+    <nav class="navbar navbar-expand-lg navbar-dark px-5 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="bi bi-flower1"></i>&nbsp; &nbsp;Technical</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#service" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#service">Web Design</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#service">Web Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#service">Facebook Ads</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#service">Google Ads</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faqs">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- stop nav section -->
+     <!-- start carousel section -->
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="caption">
+              <h1>Hello !!!</h1>
+              <p>Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.</p>
+              <a href="#">See More</a>
+          </div>
+          <img src="image/img1.webp" class="d-block w-100" alt="Hi">
+        </div>
+        <div class="carousel-item">
+          <div class="caption">
+              <h1>Hello !!!</h1>
+              <p>Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.</p>
+              <a href="#">See More</a>
+          </div>
+          <img src="image/img2.webp" class="d-block w-100" alt="Hi">
+        </div>
+        <div class="carousel-item">
+          <div class="caption">
+              <h1>Hello !!!</h1>
+             <p>Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.</p>
+              <a href="#">See More</a>
+          </div>
+          <img src="image/img3.webp" class="d-block w-100" alt="Hi">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <!-- stop carousel section -->
+  </header>
+<!-- stop header section -->
+  <!-- start about section -->
+    <section class="about" id="about">
+      <div class="container">
+         <div class="row mt-1">
+               <div class="col-12">
+                 <span class="heading">About Me</span>
+                   <p class="subheading">Read More About Me</p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 m-auto text-center p-5">
+                <picture>
+                  <img src="image/pic11.webp" alt="Hi" class="img-fluid img-thumbnail">
+                </picture>
+                <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus minus fuga obcaecati eligendi architecto temporibus quidem. Dolore nesciunt harum quidem nemo consequuntur blanditiis placeat fugit laboriosam illo ea vero, molestias numquam, similique aspernatur reprehenderit assumenda incidunt odio quae necessitatibus nisi aliquam impedit cupiditate accusamus. Repellat, excepturi. Dolores laboriosam nulla eaque.</p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5 about-text">
+                <h2>My Education</h2>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, impedit fugiat a expedita eos cupiditate quaerat assumenda dolore in ad voluptates perferendis voluptate quia culpa eius eveniet fugit at eum atque. Quae laudantium ullam dolorum, corporis repellendus deleniti nemo, consequatur quam, sed omnis quia esse voluptatum ut delectus magni molestias!</p>
+                  <ul>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, culpa!</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, culpa!</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, culpa!</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, culpa!</li>
+                  </ul>
+                  <h3 class="mt-2"> My Skill</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi aut aliquam culpa accusamus labore. Corrupti unde officiis fugiat quos modi.</p>
+                  <a href="#" class="btn">See More</a>
+              </div>
+            </div>
+        </div>
+    </section>
+  <!-- stop about section -->
+  <!-- Start Gallery section section -->
+  <section class ="gallery" id="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <span class="heading">Gallery</span>
+          <p class="subheading">This my Gallery</p>
+        </div>
+        <div class="col-sm-12 col-md-12">
+          <nav>
+            <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Photo</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Video</button>
+              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">ScreenShot</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <!-- Start photo gallery-->
+             <div class="row">
+              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="https://unsplash.it/600.jpg?image=251" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="https://unsplash.it/600.jpg?image=252" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="https://unsplash.it/600.jpg?image=253" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="https://unsplash.it/600.jpg?image=254" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="https://unsplash.it/600.jpg?image=254" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="https://unsplash.it/600.jpg?image=253" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="https://unsplash.it/600.jpg?image=252" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="https://unsplash.it/600.jpg?image=251" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                </a>
+              </div>
+             </div> 
+            </div>
+            <!-- stop photo gallery  -->
+  
+            <!-- start video gallery -->
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <a href="https://www.youtube.com/watch?v=k6mFF3VmVAs" data-toggle="lightbox" data-gallery="youtubevideos">
+                    <img src="https://i1.ytimg.com/vi/yP11r5n5RNg/mqdefault.jpg" alt="Hi" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- stop video gallery  -->
+  
+            <!-- start Screenshot gallery -->
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="https://unsplash.it/600.jpg?image=251" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="https://unsplash.it/600.jpg?image=252" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="https://unsplash.it/600.jpg?image=253" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="https://unsplash.it/600.jpg?image=254" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="https://unsplash.it/600.jpg?image=254" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="https://unsplash.it/600.jpg?image=253" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="https://unsplash.it/600.jpg?image=252" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                  </a>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                  <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery">
+                    <img src="https://unsplash.it/600.jpg?image=251" alt="Hi" class="img-fluid img-thumbnail rounded-3">
+                  </a>
+                </div>
+               </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Stop Gallery section section -->
+
+  <!-- Start service section -->
+<section class ="service" id="service">
+  <div class="container">
+      <div class="row mt-1">
+          <div class="col-12">
+              <span class="heading">Service</span>
+              <p class="subheading">Provide Our Service</p>
+          </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+            <div class="card">
+              <i class="fa fa-android" aria-hidden="true"></i>
+              <hr>
+             <span>Android</span>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde fuga tenetur vero dolores provident consectetur, obcaecati voluptatibus blanditiis optio sequi nostrum voluptatem in quidem.</p>
+              <a href="#" class="book">Book Now!!</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <div class="card">
+              <i class="fa fa-code" aria-hidden="true"></i>
+              <hr>
+             <span>Web Design</span>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde fuga tenetur vero dolores provident consectetur, obcaecati voluptatibus blanditiis optio sequi nostrum voluptatem in quidem.</p>
+              <a href="#" class="book">Book Now!!</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <div class="card">
+              <i class="fa fa-file-code-o" aria-hidden="true"></i>
+              <hr>
+             <span>Web Development</span>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde fuga tenetur vero dolores provident consectetur, obcaecati voluptatibus blanditiis optio sequi nostrum voluptatem in quidem.</p>
+              <a href="#" class="book">Book Now!!</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <div class="card">
+              <i class="fa fa-css3" aria-hidden="true"></i>
+              <hr>
+             <span>CSS3</span>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde fuga tenetur vero dolores provident consectetur, obcaecati voluptatibus blanditiis optio sequi nostrum voluptatem in quidem.</p>
+              <a href="#" class="book">Book Now!!</a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="card">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                  <hr>
+                 <span>Facebook</span>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde fuga tenetur vero dolores provident consectetur, obcaecati voluptatibus blanditiis optio sequi nostrum voluptatem in quidem.</p>
+                  <a href="#" class="book">Book Now!!</a>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="card">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <hr>
+                 <span>Twitter</span>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde fuga tenetur vero dolores provident consectetur, obcaecati voluptatibus blanditiis optio sequi nostrum voluptatem in quidem.</p>
+                  <a href="#" class="book">Book Now!!</a>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="card">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <hr>
+                 <span>Instagram</span>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde fuga tenetur vero dolores provident consectetur, obcaecati voluptatibus blanditiis optio sequi nostrum voluptatem in quidem.</p>
+                  <a href="#" class="book">Book Now!!</a>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="card">
+                  <i class="fa fa-android" aria-hidden="true"></i>
+                  <hr>
+                 <span>Android</span>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde fuga tenetur vero dolores provident consectetur, obcaecati voluptatibus blanditiis optio sequi nostrum voluptatem in quidem.</p>
+                  <a href="#" class="book">Book Now!!</a>
+              </div>
+            </div>
+      </div>
+  </div>
+</section>
+<!-- Stop Service section -->
+
+<!-- start help section -->
+<section class="help">
+  <div class="container-fluid">
+      <div class="row p-5 helpdesk">
+          <h4>HelpDesk</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae labore sunt expedita minus eius deleniti impedit ipsa? Unde eveniet illum vel numquam aperiam iusto quam voluptates tempore hic nisi tenetur sapiente quisquam dolores sit illo dolorem, inventore quos fuga molestiae totam odio officia nulla accusantium. Neque recusandae sint minus consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. In itaque, placeat modi suscipit iure tempora debitis praesentium earum impedit! Repellendus, eaque nisi doloremque necessitatibus et id saepe accusamus. Tempore harum labore corrupti quas, quam quo totam atque sunt ullam magnam, ipsa fuga voluptatem expedita dolore tempora, doloremque veniam aut numquam?</p>
+          <p class="ph">Ph.+91-73xxxxxx86</p>
+      </div>
+  </div>
+</section>
+<!-- Stop help section -->
+<!-- Start Faqs section -->
+<section class="faqs" id="faqs">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <span class="heading">FAQs</span>
+        <p class="subheading">“Frequently Asked Questions.”</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+        <picture>
+          <img src="image/pic5.webp" alt="Hi" class="img-fluid img-thumbnail rounded faqs-img">
+        </picture>
+        <p class="mt-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id illum tenetur eveniet. Dignissimos, vero quae. Temporibus maxime deserunt, porro quisquam magnam laborum asperiores nam ea.
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is Bootstrap used for?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.
+                This is the first item's accordion body.It is shown by default, until the collapse plugin adds the appropriate classes
+                Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.
+                 CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What is the main advantage of Bootstrap?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                This is the second item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is difference between Bootstrap and CSS?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Stop Faqs section -->
+<!-- start Our team Secction -->
+<section class="team" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <span class="heading">Our Team</span>
+        <p class="subheading">This my work team</p>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <div class="card team-card">
+          <img src="image/pic8.webp" alt="Hi" class="img-fluid img-thumbnail m-auto">
+       <div class="card-body">
+        <p class="card-title text-center">Frontend Developer</p>
+        <p class="card-text">With supporting text below as a natural additional content.</p>
+        <a href="#" aria-label="Read more about"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <div class="card team-card">
+          <img src="image/pic9.webp" alt="Hi" class="img-fluid img-thumbnail m-auto">
+       <div class="card-body">
+        <p class="card-title text-center">Frontend Developer</p>
+        <p class="card-text">With supporting text below as a natural additional content.</p>
+        <a href="#" aria-label="Read more about"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <div class="card team-card">
+          <img src="image/pic10.webp" alt="Hi" class="img-fluid img-thumbnail m-auto">
+       <div class="card-body">
+        <p class="card-title text-center">Backend Developer</p>
+        <p class="card-text">With supporting text below as a content additional content.</p>
+        <a href="#" aria-label="Read more about"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <div class="card team-card">
+          <img src="image/pic11.webp" alt="Hi" class="img-fluid img-thumbnail m-auto">
+       <div class="card-body">
+        <p class="card-title text-center">Graphices Desiger</p>
+        <p class="card-text">With supporting text below as a  content additional content.</p>
+        <a href="#" aria-label="Read more about"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Read more about"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Stop Our team section -->
+<!-- Start contact secction -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <span class="heading">Contact Me</span>
+        <p class="subheading">You can contact me any time</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 col-x-6">
+        <div class="mb-5 text-center">
+          <h3>Contact Form</h3>
+        </div>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="fname" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="fname" placeholder="Enter your first name">
+          </div>
+          <div class="col-md-6">
+            <label for="lname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lname" placeholder="Enter your last name">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your EmailId">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Enter your password">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Type your Address">
+          </div>
+          
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>...Choose...</option>
+              <option>Uttar Pradesh</option>
+              <option>Uttar Pradesh</option>
+              <option>Uttar Pradesh</option>
+              <option>Uttar Pradesh</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+               I Agree Me!!
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary text-white">Sign in</button>
+          </div>
+        </form>
+      </div>
+      
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+        <div class="mb-5">
+          <h3>Contact Details</h3>
+        </div>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <h4>Address</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Libero enim quos doloremque accusamus eveniet omnis.</p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center">
+                <div class="details text-center">
+                  <h5>Contact No.</h5>
+                  <p>+91-73xxxxxx86</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="details text-center">
+                  <h5>E-mail Id</h5>
+                  <p>e********h@gmail.com</p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- stop contact section -->
+<!-- start footer section -->
+<section class ="footer">
+  <div class="container-fluid">
+  <p>Design by Jagdish &copy;2022 All right reserved </p>
+  </div>
+  </section>
+  <!--stop footer section-->
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
